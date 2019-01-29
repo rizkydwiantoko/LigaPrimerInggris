@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#03A9F4"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="1dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp">
+
+            <TextView
+                android:id="@+id/tvPeringkat"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingRight="6dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/tvNamaTim"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:paddingRight="6dp"
+                android:text="nama tim liga inggris"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#E6E6E6"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="1dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp">
+
+            <TextView
+                android:id="@+id/tvJmlTanding"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="6dp"
+                android:text="main" />
+
+            <TextView
+                android:id="@+id/tvMenang"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="6dp"
+                android:text="m" />
+
+            <TextView
+                android:id="@+id/tvSeri"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="6dp"
+                android:text="s" />
+
+            <TextView
+                android:id="@+id/tvKalah"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="6dp"
+                android:text="k" />
+
+            <TextView
+                android:id="@+id/tvGM"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="6dp"
+                android:text="gf" />
+
+            <TextView
+                android:id="@+id/tvGK"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="6dp"
+                android:text="ga" />
+
+            <TextView
+                android:id="@+id/tvPoin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="6dp"
+                android:text="poin"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

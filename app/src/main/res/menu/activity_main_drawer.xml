@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tentang"
+            android:icon="@drawable/ic_help_outline_black_24dp"
+            android:title="@string/beranda" />
+        <item
+            android:id="@+id/nav_klub"
+            android:icon="@drawable/ic_remove_red_eye_black_24dp"
+            android:title="@string/daftar_klub" />
+        <item
+            android:id="@+id/nav_klasemen"
+            android:icon="@drawable/ic_format_list_numbered_black_24dp"
+            android:title="@string/klasemen" />
+        <item
+            android:id="@+id/nav_jadwal"
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:title="@string/jadwal" />
+        <item
+            android:id="@+id/nav_hasil"
+            android:icon="@drawable/ic_texture_black_24dp"
+            android:title="@string/hasil" />
+
+    </group>
+
+    <item android:title="@string/lainnya">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_hotel_black_24dp"
+                android:title="@string/keluar" />
+        </menu>
+    </item>
+
+</menu>
